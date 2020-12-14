@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.64
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobsLedger.API", "JobsLedger.API\JobsLedger.API.csproj", "{0ACC5798-F26F-415E-B5B6-93BB17C0E2A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobsLedger.AUTOMAPPER.CONFIGURATION", "JobsLedger.AUTOMAPPER.CONFIGURATION\JobsLedger.AUTOMAPPER.CONFIGURATION.csproj", "{A96D04B4-40D5-4FE1-BA06-0CA3C533CB90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobsLedger.MODELS", "JobsLedger.MODELS\JobsLedger.MODELS.csproj", "{A517872A-CF7E-4071-8980-1852674D5018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobsLedger.TENANTS.ENTITIES", "JobsLedger.TENANTS.ENTITIES\JobsLedger.TENANTS.ENTITIES.csproj", "{C5583C9B-E418-4486-A288-B67627D66314}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobsLedger.DATABASE.CREATION.SERVICE", "JobsLedger.DATABASE.CREATION.SERVICE\JobsLedger.DATABASE.CREATION.SERVICE.csproj", "{FADCE565-27CD-4C27-8C3E-07A5B0B507FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobsLedger.INTERFACES", "JobsLedger.INTERFACES\JobsLedger.INTERFACES.csproj", "{97D5DC87-F794-46C8-8DB8-05A4726007FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ACC5798-F26F-415E-B5B6-93BB17C0E2A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACC5798-F26F-415E-B5B6-93BB17C0E2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACC5798-F26F-415E-B5B6-93BB17C0E2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACC5798-F26F-415E-B5B6-93BB17C0E2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96D04B4-40D5-4FE1-BA06-0CA3C533CB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96D04B4-40D5-4FE1-BA06-0CA3C533CB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96D04B4-40D5-4FE1-BA06-0CA3C533CB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96D04B4-40D5-4FE1-BA06-0CA3C533CB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A517872A-CF7E-4071-8980-1852674D5018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A517872A-CF7E-4071-8980-1852674D5018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A517872A-CF7E-4071-8980-1852674D5018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A517872A-CF7E-4071-8980-1852674D5018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5583C9B-E418-4486-A288-B67627D66314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5583C9B-E418-4486-A288-B67627D66314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5583C9B-E418-4486-A288-B67627D66314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5583C9B-E418-4486-A288-B67627D66314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADCE565-27CD-4C27-8C3E-07A5B0B507FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADCE565-27CD-4C27-8C3E-07A5B0B507FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADCE565-27CD-4C27-8C3E-07A5B0B507FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADCE565-27CD-4C27-8C3E-07A5B0B507FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D5DC87-F794-46C8-8DB8-05A4726007FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D5DC87-F794-46C8-8DB8-05A4726007FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D5DC87-F794-46C8-8DB8-05A4726007FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D5DC87-F794-46C8-8DB8-05A4726007FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D53EED0F-201D-4A09-83E2-9A66CE4184A9}
+	EndGlobalSection
+EndGlobal

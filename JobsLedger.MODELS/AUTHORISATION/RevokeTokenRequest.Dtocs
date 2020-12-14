@@ -1,0 +1,7 @@
+namespace JobsLedger.MODELS.AUTHORISATION
+{
+    public class RevokeTokenRequest
+    {
+        public string Token { get; set; }
+    }
+}
